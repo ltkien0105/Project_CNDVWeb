@@ -1,0 +1,17 @@
+.pagination-nav {
+    margin-top: 32px;
+}
+
+.page-link {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.page-link.active{
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.page-link:hover {
+    cursor: pointer;
+}

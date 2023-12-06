@@ -1,0 +1,62 @@
+.form {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form, .navigate {
+    width: 50%;
+}
+
+h1 {
+    margin: auto;
+    margin-bottom: 8px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+input {
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.error-feedback {
+    color: red;
+}
+
+button.submit {
+    margin-top: 16px;
+    padding: 8px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 16px;
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.sub-button {
+    color: red;
+    background-color: transparent;
+    border: none;
+    margin-top: 1px;
+    text-decoration: none;
+}
+
+.navigate.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.navigate.signup .sub-button {
+    margin-left: 8px;
+    margin-bottom: 16px;
+}
