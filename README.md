@@ -4,6 +4,8 @@
 
 ### To use peoject, you need to download entire repository and `cd` to project you want to use. Then, following these step to start the project
 ### Note: You can delete unnecessary project
+ - With bootstrap project: install `live server` extension if you use Visual Code and use this extension to run project.
+   
  - With 2 front-end project (contactbook-fe, project-movie-frontend):
    - Run `npm install` to install necessary packages
    - Run `npm run dev` to start
