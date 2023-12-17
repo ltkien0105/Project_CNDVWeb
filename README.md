@@ -12,12 +12,13 @@
    - `npm install` to install necessary package
    - Import sql file to mysql database
    - Add .env file to the root of project with these config
-     `PORT=3000
+     ```
+      PORT=3000
       DB_HOST=localhost
       DB_PORT=3306
       DB_USER={user database}
       DB_PASS={password of database}
       DB_NAME={name of database}
-     `
+     ```
    - Run `npx knex seed:run` to run seed file for inserting data to database.
    - Run `npm start` to start the server
