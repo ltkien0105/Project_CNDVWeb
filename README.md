@@ -1,9 +1,9 @@
 # All Project of CT313H
 
-# Requirements: NodeJS
+### Requirements: NodeJS
 
-# To use peoject, you need to download entire repository and `cd` to project you want to use. Then, following these step to start the project
-# Note: You can delete unnecessary project
+### To use peoject, you need to download entire repository and `cd` to project you want to use. Then, following these step to start the project
+### Note: You can delete unnecessary project
  - With 2 front-end project (contactbook-fe, project-movie-frontend):
    - Run `npm install` to install necessary packages
    - Run `npm run dev` to start
